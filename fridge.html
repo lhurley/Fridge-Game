@@ -67,7 +67,7 @@
       // =================================================================================
 
       // 1. Create a for-loop to iterate through the letters array.
-
+      
       // Inside the loop...
 
       // 2. Create a variable named "letterBtn" equal to $("<button>");
@@ -103,11 +103,13 @@
       // =================================================================================
 
       // 12. Create an "on-click" event attached to the "#clear" button id.
+        $(".clear").on("click", function(){
 
       // Inside the on-click event...
 
       // 13. Use the jQuery "empty()" method to clear the contents of the "#display" div.
-
+        $(".display").empty();
+        })  
     });
   </script>
 </body>
